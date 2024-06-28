@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -156,6 +156,7 @@
 			mainGroup = 5F4617A8297E1747005A09A6;
 			packageReferences = (
 				5F736CA82982271A00997B93 /* XCRemoteSwiftPackageReference "Motion" */,
+				55C66AD62C2E3BFC00ED4C36 /* XCLocalSwiftPackageReference "../../Downloads/SVGKit-3.0.0" */,
 			);
 			productRefGroup = 5F4617B2297E1747005A09A6 /* Products */;
 			projectDirPath = "";
@@ -338,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VPN8ZW6EAC;
+				DEVELOPMENT_TEAM = U2225VYC92;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ball/Info.plist;
@@ -366,7 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VPN8ZW6EAC;
+				DEVELOPMENT_TEAM = U2225VYC92;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ball/Info.plist;
@@ -407,6 +408,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		55C66AD62C2E3BFC00ED4C36 /* XCLocalSwiftPackageReference "../../Downloads/SVGKit-3.0.0" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/SVGKit-3.0.0";
+		};
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
 		5F736CA82982271A00997B93 /* XCRemoteSwiftPackageReference "Motion" */ = {
